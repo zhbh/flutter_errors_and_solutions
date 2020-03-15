@@ -1,0 +1,2 @@
+# flutter_errors_and_solutions
+本仓库收集在flutter开发过程，遇到一些错误和如何解决的方案。
