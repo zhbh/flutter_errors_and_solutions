@@ -1,7 +1,7 @@
 # flutter_errors_and_solutions
 本仓库收集在flutter开发过程，遇到一些错误和如何解决的方案。
 
-### Invalid `Podfile` file: no implicit conversion of nil into String.
+### Invalid Podfile file: no implicit conversion of nil into String.
 
 ruby的版本过低，需要更新ruby版本。 [solution link](https://www.cnblogs.com/doudouyoutang/p/10716376.html)
 
