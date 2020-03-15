@@ -3,16 +3,12 @@
 
 ### Invalid `Podfile` file: no implicit conversion of nil into String.
 
-ruby的版本过低，需要更新ruby版本。
-
-[solution](https://www.cnblogs.com/doudouyoutang/p/10716376.html)
+ruby的版本过低，需要更新ruby版本。 [solution](https://www.cnblogs.com/doudouyoutang/p/10716376.html)
 
 
 ### 国际化不起作用
 
-- 针对iOS需要在`Info.plist`添加`Localizations`配置项。
-
-[solution](https://flutter.cn/docs/development/accessibility-and-localization/internationalization)
+- 针对iOS需要在`Info.plist`添加`Localizations`配置项。 [solution](https://flutter.cn/docs/development/accessibility-and-localization/internationalization)
 
 - 模拟器有效果，真机却没有效果。
 
@@ -20,9 +16,7 @@ ruby的版本过低，需要更新ruby版本。
 
 ### flutter upgrade很慢或卡住不动
 
-- 在官网直接下载
-
-[solution](https://flutter.dev/docs/get-started/install)
+- 在官网直接下载 [solution](https://flutter.dev/docs/get-started/install)
 
 - 切换镜像
 
@@ -33,14 +27,14 @@ export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 ```
 
-> 可切换清华大学镜像
+> 可切换清华大学镜像 
+ [solution](https://mirror.tuna.tsinghua.edu.cn/help/dart-pub/)
 
 ```
 $ PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub/" pub get # pub
 $ PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub/" flutter packages get # flutter
 ```
 
-[solution](https://mirror.tuna.tsinghua.edu.cn/help/dart-pub/)
 
 ### Waiting for another flutter command to release the startup lock
 
