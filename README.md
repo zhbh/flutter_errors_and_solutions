@@ -51,9 +51,6 @@ $ PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub/" flutter packag
 1.打开flutter的安装目录/bin/cache/；
 2.删除lockfile文件。
 
-或
-
-暂停一方环境编译。
 ```
 
 ### 5.Using `ARCHS` setting to build architectures of target `Pods-Runner` or The 'Pods-Runner' target has transitive dependencies that include statically linked binaries
