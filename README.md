@@ -71,6 +71,6 @@ $ PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub/" flutter packag
 
 #### 解决：
 
- - 删除 `ios/Flutter` 文件下 `Flutter.framework`，重新编译即可。
+ - 删除 `ios/Flutter` 文件下 `Flutter.framework`，重新编译即可。[solution link](https://github.com/tanersener/flutter-ffmpeg/issues/8)
 
 
