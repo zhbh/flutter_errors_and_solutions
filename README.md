@@ -55,6 +55,8 @@ $ PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub/" flutter packag
 
 ### 5.Using `ARCHS` setting to build architectures of target `Pods-Runner` or The 'Pods-Runner' target has transitive dependencies that include statically linked binaries
 
+- 编译环境：iOS
+
 ```
 	Inspecting targets to integrate
 	  Using `ARCHS` setting to build architectures of target
@@ -72,5 +74,29 @@ $ PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub/" flutter packag
 #### 解决：
 
  - 删除 `ios/Flutter` 文件下 `Flutter.framework`，重新编译即可。[solution link](https://github.com/tanersener/flutter-ffmpeg/issues/8)
+
+### 6.he sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+
+- 编译环境：iOS
+
+
+#### 解决：
+
+- 当前根目录会莫名其妙生成一个`XXX.xcworkspace`，不保存或删除即可。
+
+### 7. could not find included file 'Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig' in search paths
+
+- 编译环境：iOS
+
+#### 解决：
+
+```
+1. 执行`flutter clean`
+2. 打开到`ios`目录，执行`cd ios`
+3. 执行`pod install`
+
+```
+
+[solution link](https://www.jianshu.com/p/4ffcbdb025f8)
 
 
