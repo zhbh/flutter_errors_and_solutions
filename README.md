@@ -83,7 +83,7 @@ $ PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub/" flutter packag
 #### 解决：
 
 ```
-1. 打开到`ios`目录，执行`cd ios`
+1. 打开到`ios`目录，执行`cd ios`;
 2. 执行`pod install`
 ```
 
@@ -105,5 +105,4 @@ or
 ```
 
 [solution link](https://www.jianshu.com/p/4ffcbdb025f8)
-
 
