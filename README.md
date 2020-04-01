@@ -82,6 +82,13 @@ $ PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub/" flutter packag
 
 #### 解决：
 
+```
+1. 打开到`ios`目录，执行`cd ios`
+2. 执行`pod install`
+```
+
+or 
+
 - 当前根目录会莫名其妙生成一个`XXX.xcworkspace`，不保存或删除即可。
 
 ### 7. could not find included file 'Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig' in search paths
